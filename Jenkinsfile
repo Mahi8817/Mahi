@@ -6,7 +6,7 @@ pipeline {
 	}
 	
 	stages {
-		stage('Code Clone') {
+		stage('Code test') {
 			steps {
 				git branch: 'main', credentialsId: 'Mahi', url: 'https://github.com/Mahi8817/Mahi.git'
 			}
