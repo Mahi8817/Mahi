@@ -14,11 +14,5 @@ pipeline {
 			
 			}
 			}
-			stage ('Code Clean') {
-				steps {
-					sh 'mvn clean'
-			}	
-			
-			}
-			
+		
 			}
